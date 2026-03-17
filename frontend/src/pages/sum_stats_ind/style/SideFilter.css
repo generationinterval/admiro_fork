@@ -1,0 +1,25 @@
+.side-filter {
+  background-color: #ffffff;
+  height: 100dvh;
+  overflow-y: auto;
+
+  /* Firefox Scrollbar */
+  scrollbar-width: thin;
+  scrollbar-color: #003d73 #e7eaf5; /* Blue thumb, light blue track */
+}
+
+.side-filter::-webkit-scrollbar {
+  width: 8px; /* Scrollbar width */
+}
+
+.side-filter::-webkit-scrollbar-track {
+  background: #e7eaf5; /* Light blue for the track */
+  border-radius: 10px;
+}
+
+.side-filter::-webkit-scrollbar-thumb {
+  background-color: #003d73; /* Main blue for the thumb */
+  border-radius: 10px;
+  border: 2px solid #ffffff; /* White border for contrast */
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}

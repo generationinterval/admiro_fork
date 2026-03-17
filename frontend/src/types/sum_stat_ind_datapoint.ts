@@ -13,22 +13,19 @@ export interface DataPoint {
   sex: string;
   pop: string;
   reg: string;
-  oda: string;
-  tim: number;
+  phase_state: string;
+  mpp: number;
   lat: number;
   lon: number;
   jitteredLat?: number;
   jitteredLon?: number;
-  cre: string;
-  cda: string;
-  lin: string;
+  ind_phase: string;
   ancAMR: number | null;
   ancEAS: number | null;
   ancSAS: number | null;
   ancAFR: number | null;
   ancEUR: number | null;
   ancOCE: number | null;
-  fac_x: string | null;
-  fac_y: string | null;
-  color: string;
+  ancOCE2: number | null;
+  ancMID: number | null;
 }
